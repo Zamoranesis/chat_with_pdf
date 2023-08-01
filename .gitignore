@@ -1,0 +1,50 @@
+# Ignorar archivos .env y otros archivos con información sensible
+.env
+.env.*
+*.env.local
+*.env.development
+*.env.test
+*.env.production
+.env.production.local
+.env.test.local
+
+# Ignorar archivos de configuración de desarrollo
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.eslintcache
+node_modules/
+npm-cache/
+npm/
+yarn.lock
+package-lock.json
+*.log
+
+# Ignorar claves y contraseñas
+*.key
+*.pem
+*.p12
+*.pem
+*.pfx
+*.cer
+*.pem
+*.pub
+*.ppk
+*.rsa
+*.dsa
+*.gpg
+*.jks
+*.keystore
+
+# Ignorar archivos de configuración y credenciales para diferentes editores
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+*.vssettings
+*.vssscc
+*.suo
+*.ntvs*
+*.njsproj.user
+*.swp
